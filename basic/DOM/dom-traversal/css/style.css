@@ -1,0 +1,64 @@
+/* #---------------------------------------------------#
+css utama
+#---------------------------------------------------# */
+
+/* set semua elemen ke border-box */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(37, 38, 40);
+}
+
+.container {
+  margin: 25px auto;
+  width: 950px;
+  padding: 20px;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  width: 400px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 20px;
+  float: left;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.nama {
+  position: absolute;
+  left: 150px;
+  top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.telp {
+  position: absolute;
+  left: 160px;
+  top: 50px;
+  font-size: 15px;
+}
+
+.close {
+  position: absolute;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  top: 40px;
+  right: 25px;
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
